@@ -81,3 +81,6 @@ This project is optimized to be deployed seamlessly on modern hosting platforms.
 ## Live Demo & Repository
 - **Deployed Website**: [Insert Live URL Here]
 - **Repository**: [https://github.com/your-username/my-portfolio](https://github.com/your-username/my-portfolio)
+
+# my-portfolio
+A modern responsive portfolio website built with React to showcase my projects, skills, and experience. Includes sections for About Me, Projects, Skills, Resume, and Contact. Optimized for performance with lazy loading and deployed for production.
