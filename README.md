@@ -7,7 +7,7 @@ Welcome to my personal portfolio! This project is a modern, responsive, and perf
 # 🌐 Live Demo
 
 **Portfolio Website:** 
-Live Demo: https://my-portfolio-rust-mu-90.vercel.app
+Live Demo: https://sanket-kanjariya.vercel.app/
 
 **Repository:**
 https://github.com/Sanket1656/my-portfolio
