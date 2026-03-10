@@ -4,10 +4,17 @@ Welcome to my personal portfolio! This project is a modern, responsive, and perf
 
 ---
 
+# 📌 Project Objective
+
+The objective of this project is to design, develop, and deploy a professional portfolio website using **React**.
+The website highlights my projects, technical skills, and contact information while demonstrating **responsive design, performance optimization, and modern frontend development practices**.
+
+---
+
 # 🌐 Live Demo
 
-**Portfolio Website:** 
-Live Demo: https://sanket-kanjariya.vercel.app/
+**Portfolio Website:**
+https://sanket-kanjariya.vercel.app/
 
 **Repository:**
 https://github.com/Sanket1656/my-portfolio
@@ -16,45 +23,62 @@ https://github.com/Sanket1656/my-portfolio
 
 # ✨ Features
 
-* **Responsive Design**
-  Carefully crafted to look perfect on mobile, tablet, and desktop devices.
+### Responsive Design
 
-* **Modern UI**
-  Dark mode aesthetic with gradients, glassmorphism, and smooth micro-animations using Framer Motion.
+Carefully crafted to look perfect on **mobile, tablet, and desktop devices**.
 
-* **Performance Optimized**
-  Lazy loading implemented for React components and images to ensure fast loading.
+### Modern UI
 
-* **Modular Components**
-  Clean reusable React components such as:
+Dark mode aesthetic with gradients, glassmorphism, and smooth micro-animations using **Framer Motion**.
 
-  * Hero
-  * About
-  * Skills
-  * Projects
-  * Contact
+### Performance Optimized
 
-* **Fast Development**
-  Built using Vite for extremely fast development and build performance.
+Lazy loading implemented for **React components and images** to ensure fast loading.
+
+### Modular Components
+
+Clean reusable React components such as:
+
+* Hero
+* About
+* Skills
+* Projects
+* Contact
+
+### Fast Development
+
+Built using **Vite** for extremely fast development and build performance.
+
+---
+
+# ⚡ Performance Optimization
+
+To improve application performance and loading speed, the following optimizations were implemented:
+
+* **Lazy Loading:** React `lazy()` and `Suspense` used for component code splitting.
+* **Image Lazy Loading:** Images load only when they enter the viewport.
+* **Production Build Optimization:** Vite minimizes JavaScript and CSS during build.
+* **Component-Based Architecture:** Improves maintainability and reduces redundant code.
+* **Efficient Animations:** GPU-accelerated animations using Framer Motion.
 
 ---
 
 # 🛠 Tech Stack
 
-### Frontend
+## Frontend
 
 * React 19
 * Vite
 
-### Styling
+## Styling
 
 * Tailwind CSS v4
 
-### Animations
+## Animations
 
 * Framer Motion
 
-### Icons
+## Icons
 
 * React Icons (Feather Icons, Simple Icons)
 
@@ -136,28 +160,28 @@ npm run preview
 
 # 🚀 Deployment
 
-This project can be deployed easily on modern hosting platforms.
+This project is deployed using **Vercel**, a modern cloud platform for frontend applications.
 
-## Deploy on Vercel (Recommended)
+## Deploy on Vercel
 
-1. Push the code to GitHub
+1. Push the code to **GitHub**
 2. Go to https://vercel.com
-3. Login using GitHub
+3. Login using **GitHub**
 4. Click **Add New → Project**
 5. Import your repository
 
-Vercel will automatically detect **Vite settings**
+Vercel automatically detects **Vite settings**
 
-Build settings should be:
+Build settings:
 
 ```
 Build Command: npm run build
 Output Directory: dist
 ```
 
-6. Click **Deploy**
+Click **Deploy**.
 
-After deployment you will get a URL like:
+After deployment you receive a URL like:
 
 ```
 https://my-portfolio.vercel.app
@@ -201,7 +225,7 @@ to the body element which conflicted with Tailwind layouts.
 
 **Solution**
 
-Removed the conflicting global styles and fully switched to Tailwind utility classes using the new `@theme` API from Tailwind CSS v4.
+Removed the conflicting global styles and fully switched to **Tailwind utility classes**.
 
 ---
 
@@ -213,7 +237,7 @@ Creating smooth animations for mobile navigation on low-end devices.
 
 **Solution**
 
-Used **AnimatePresence** from Framer Motion with GPU accelerated transforms:
+Used **AnimatePresence** from Framer Motion with GPU-accelerated transforms:
 
 ```
 y
@@ -235,6 +259,6 @@ https://github.com/Sanket1656
 
 ---
 
-# ⭐ If you like this project
+# ⭐ Support
 
-Give it a ⭐ on GitHub to support the project.
+If you like this project, consider giving it a **⭐ on GitHub**.
