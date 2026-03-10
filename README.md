@@ -248,6 +248,31 @@ This created smooth opening and closing animations.
 
 ---
 
+# 📷 Screenshots
+
+
+Example:
+
+```
+screenshots/home.png
+![Homepage](image.png)
+
+screenshots/about.png
+![About](image-1.png)
+
+screenshots/skills.png
+![Skills](image-2.png)
+
+screenshots/projects.png
+![Projects](image-3.png)
+
+screenshots/contact.png
+![Contact](image-4.png)
+```
+
+
+---
+
 # 👨‍💻 Author
 
 **Sanket Kanjariya**
